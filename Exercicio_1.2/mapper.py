@@ -13,4 +13,4 @@ for line in sys.stdin:
     if len(data) != 6: #If it does not have all 6 elements, the line is discarded.
         continue
     _, _, _, item, cost, _ = data
-    print(store+"\t"+cost)
+    print(item+"\t"+cost)
